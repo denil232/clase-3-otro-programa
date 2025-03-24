@@ -7,10 +7,10 @@
 }
 
 body{
-    background-color: #88d3e6;
+    background-color: #e9cfa8;
     font-family: "Tektur", sans-serif;
     margin: 5%;
-    line-height: 1.8;
+    line-height: 1.9;
 }
 main{
     max-width: 800px;
@@ -23,7 +23,7 @@ header{
     color: rgb(0, 255, 255);
     padding: 20px 0;
     border-radius: 8px 8px 0 0 ;
-    background-image:url(./img/codigo\ fondo.jpg);
+    background-image:url(./img/nubes.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,8 +31,9 @@ header{
 }
 header figure img{
     border-radius: 50%;
-    border: 5px solid cornflowerblue;
+    border: 5px solid #d4ad59;
     box-shadow: 0px 0px 10px;
+    object-fit:  cover;
 }
 
 header h1{
@@ -46,10 +47,44 @@ header h2{
 }
 
 .container{
-    background-color: blue;
+    background-color: #ddce8b;
     width: 80%;
     margin: 0 auto;
     position: relative;
     z-index: 1;
 
+}
+
+.contenedor_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border:10px solid #d4ad59;
+    margin: 5%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0,5);
+    object-fit:  cover;
+}
+
+.contenedor_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit:  cover;
+}
+img{
+    object-fit: cover;
+}
+
+.cabecera{
+    position: relative;
+}
+
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0,5);
 }
