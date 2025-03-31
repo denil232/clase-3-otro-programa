@@ -88,3 +88,54 @@ img{
     margin-left: 1%;
     text-shadow: 0px 0px 20px rgba(0,0,0,0,5);
 }
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color rgba(14,16,16,0.1);
+}
+
+section{
+    background-color: rgb(223, 193, 112);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+section hr{
+    border:0;
+    height: 2px;
+    background: #1835db;
+    margin: 10px 0;
+}
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: rgb(0, 255, 255);
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    padding: 5px 0;
+}
+
+i{
+    color: #707070;
+    margin-right: 9px;
+}
+
+address p{
+    margin: 5px 0;
+}
+
+address a{
+    color:#fffefb;
+    text-decoration: none;
+}
+
+
+
